@@ -8,7 +8,7 @@ import static org.junit.Assert.assertThat;
 
 /**
  * Test.
- * 
+ *
  * @author Igor Khmelevskiy (igorkkhm@gmail.com)
  * @version $Id$
  * @since 0.1
@@ -17,7 +17,7 @@ public class CalculateTest {
 	/**
 	 * Test echo.
 	 */ @Test
-	 public void whenTakeNameThenTreeEchoPlusName() {
+	public void whenTakeNameThenTreeEchoPlusName() {
 		String input = "Igor Khmelevskiy";
 		String expect = "Echo, echo, echo : Igor Khmelevskiy";
 		Calculate calc = new Calculate();
