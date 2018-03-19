@@ -9,7 +9,7 @@ public class MaxTest {
     @Test
     public void whenFirstBiggerSecond() {
         Max max = new Max();
-        int result = max.max(54, 65, 17);
-        assertThat(result, is(65));
+        int result = max.max(5, 2, 17);
+        assertThat(result, is(17));
     }
 }
