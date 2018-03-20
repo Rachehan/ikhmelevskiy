@@ -24,5 +24,4 @@ public class Factorial {
         }
         return fact;
     }
-
 }
