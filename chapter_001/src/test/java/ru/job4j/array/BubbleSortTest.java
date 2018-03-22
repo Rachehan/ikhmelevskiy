@@ -18,5 +18,4 @@ public class BubbleSortTest {
         int[] expected = {3, 5, 12, 36, 101, 113};
         assertThat(result, is(expected));
     }
-
 }
