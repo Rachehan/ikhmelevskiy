@@ -1,4 +1,4 @@
-package array;
+package ru.job4j.array;
 
 /**
  * @author Igor Khmelevskiy (igorkkhm@gmail.com)

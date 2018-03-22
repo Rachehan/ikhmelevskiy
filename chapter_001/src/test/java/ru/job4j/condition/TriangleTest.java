@@ -11,11 +11,14 @@ import static org.junit.Assert.assertThat;
  */
 public class TriangleTest {
     @Test
-    public void whenAreaSetThreePointsThenTriangleAre() {
+    public void whenAreaSetThreePointsThenTriangleArea() {
         //создаем три объекта класса Point
         Point a = new Point(0, 0);
         Point b = new Point(0, 2);
         Point c = new Point(2, 0);
+       /* Point a = new Point(0, 0);
+        Point b = new Point(0, 2);
+        Point c = new Point(2, 0);*/
 
         //создаем объект треугольник и передаем в него объекты точек.
         Triangle triangle = new Triangle(a, b, c);
