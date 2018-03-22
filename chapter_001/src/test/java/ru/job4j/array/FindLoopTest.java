@@ -23,7 +23,7 @@ public class FindLoopTest {
     public void whenNotFound() {
         int[] testArray = {1, 2, 3, 4, 5, 5, 7, 8, 9, 10};
         FindLoop findLoop = new FindLoop();
-        int expected = 5;
+        int expected = -1;
         int result = findLoop.indexOf(testArray, 6);
         assertThat(expected, is(result));
     }
