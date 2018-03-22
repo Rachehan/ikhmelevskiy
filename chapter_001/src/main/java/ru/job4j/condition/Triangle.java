@@ -35,7 +35,6 @@ public class Triangle {
         ac = this.a.distanceTo(this.c);
         bc = this.b.distanceTo(this.c);
         return (ab + ac + bc)/2;
-
     }
 
     /**
@@ -65,5 +64,4 @@ public class Triangle {
     private boolean exist(double ab, double ac, double bc) {
         return ((ab + ac) > bc) && ((ac + bc) > ab) && ((ab + bc) > ac);
     }
-
 }
