@@ -13,8 +13,18 @@ public class BubbleSort {
      * @return Сортированный массив.
      */
     public int[] sort(int[] array) {
-        int temp = -1;
+        int temp;
+        // внешний цикл контролирует количество проходов по всему массиву
+        for (int i = 0; i < array.length; i++ ) {
+            // внутренний цикл сдвигает более крупные числа максимально возможно вправо
+            for (int j = 0; j < array.length - 1; j++) {
+                if (array[j] > array[j+1]) {
+                    temp = array[j + 1];
+                    array[j + 1] = array[j];
+                    array[j] = temp;
+                }
+            }
+        }
         return array;
     }
-
 }
