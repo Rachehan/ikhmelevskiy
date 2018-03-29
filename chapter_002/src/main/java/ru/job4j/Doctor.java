@@ -6,7 +6,7 @@ package ru.job4j;
  * @since 0.1
  * Класс Доктор, наследник класса Профессия
  */
-public class Doctor {
+public class Doctor extends Profession {
     public void cure() {
     }
 }

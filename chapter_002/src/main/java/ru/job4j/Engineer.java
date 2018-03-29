@@ -6,7 +6,7 @@ package ru.job4j;
  * @since 0.1
  * Класс Инженер, наследник класса Профессия
  */
-public class Engineer {
+public class Engineer extends Profession {
     public void build() {
     }
 }

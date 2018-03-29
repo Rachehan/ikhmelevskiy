@@ -6,7 +6,7 @@ package ru.job4j;
  * @since 0.1
  * Класс Учитель, наследник класса Профессия
  */
-public class Teacher {
+public class Teacher extends Profession {
     public void teach() {
     }
 }
