@@ -11,8 +11,6 @@ public class TwoArraysSort {
      * @param first
      * @param second
      * @return
-     * bigArray - новый отсортированный массив
-     * bufer -
      */
     public int[] doubleSort(int[] first, int[] second) {
         int[] bigArray = new int[first.length + second.length];
